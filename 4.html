@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="salary"></h1>
+    <script type="text/javascript">
+        var A = parseInt(prompt("Enter You No:- "));
+        var HRA = 10, DA = 5, TA = 8;
+
+        HRA = (100 * 10) / 100;
+        DA = (100 * 5) / 100;
+        TA = (100 * 8) / 100;
+
+        var sum = HRA + DA + TA + A;
+        document.write("<hi> salary = " + sum + "</h1></br>");
+        console.log("salary = " + sum);
+        alert("salary = " + sum);
+        document.getElementById('salary').innerHTML = ("salary = ") + sum;
+    </script>
+</body>
+
+</html>
